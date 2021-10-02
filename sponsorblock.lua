@@ -11,10 +11,10 @@ local options = {
     python_path = ON_WINDOWS and "python" or "python3",
 
     -- Categories to fetch
-    categories = "sponsor,intro,outro,interaction,selfpromo",
+    categories = "music_offtopic,sponsor,intro,outro,interaction,selfpromo",
 
     -- Categories to skip automatically
-    skip_categories = "sponsor",
+    skip_categories = "music_offtopic,sponsor,intro,outro,interaction,selfpromo",
 
     -- If true, sponsored segments will only be skipped once
     skip_once = true,
